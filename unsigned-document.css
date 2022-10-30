@@ -1,0 +1,188 @@
+.footer-footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.footer-link {
+  display: contents;
+}
+.footer-image {
+  height: 5rem;
+  object-fit: cover;
+  text-decoration: none;
+}
+.footer-link1 {
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-link1:hover {
+  transform: scale(1.02);
+}
+@media(max-width: 991px) {
+  .footer-image {
+    height: 4.5rem;
+  }
+}
+@media(max-width: 767px) {
+  .footer-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    justify-content: center;
+  }
+  .footer-image {
+    height: 4rem;
+  }
+  .footer-link1 {
+    margin: var(--dl-space-space-unit);
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .footer-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .footer-image {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-link1 {
+    display: none;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+}
+
+.unsigned-document-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.unsigned-document-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.unsigned-document-container1 {
+  width: 500px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.unsigned-document-text {
+  font-size: 3.2rem;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Glacial Indifference;
+}
+.unsigned-document-text1 {
+  font-size: 1rem;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: left;
+  font-family: Glacial Indifference;
+  padding-left: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: 0px;
+}
+@media(max-width: 991px) {
+  .unsigned-document-hero {
+    flex-direction: column;
+  }
+  .unsigned-document-container1 {
+    align-items: flex-start;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .unsigned-document-text {
+    text-align: left;
+    font-family: Glacial Indifference;
+    margin-left: Unit;
+    margin-right: Unit;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .unsigned-document-text1 {
+    text-align: left;
+    font-family: Glacial Indifference;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .unsigned-document-hero {
+    min-height: 60vh;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .unsigned-document-container1 {
+    width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .unsigned-document-text {
+    font-size: 3rem;
+    align-self: flex-start;
+    text-align: left;
+    font-family: Glacial Indifference;
+    padding-left: var(--dl-space-space-unit);
+  }
+  .unsigned-document-text1 {
+    align-self: flex-start;
+    text-align: left;
+    font-family: Glacial Indifference;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .unsigned-document-link {
+    text-decoration: underline;
+  }
+}
+@media(max-width: 479px) {
+  .unsigned-document-hero {
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 0px;
+    justify-content: flex-start;
+  }
+  .unsigned-document-container1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .unsigned-document-text {
+    height: 109px;
+    font-size: 3rem;
+    text-align: left;
+    font-family: Glacial Indifference;
+    padding-left: 0px;
+  }
+  .unsigned-document-text1 {
+    font-family: Glacial Indifference;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .unsigned-document-link {
+    text-decoration: underline;
+  }
+}
